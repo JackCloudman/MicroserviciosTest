@@ -30,3 +30,4 @@ Instala requerimientos
 - Se puede compilar el proyecto y crear una imagen de docker que solo contenga este archivo binario.
 - Hay mas información en la carpeta doc
 - La estructura del proyecto se puede mejorar
+- AutoBuild para dockerhub en pruebas
