@@ -26,3 +26,7 @@ Instala requerimientos
     $ docker build -t jackcloudman/microserviciotest .
 ### Ejecutar
     $ docker run --publish 8090:8090 jackcloudman/microserviciotest
+## Notas
+- Se puede compilar el proyecto y crear una imagen de docker que solo contenga este archivo binario.
+- Hay mas información en la carpeta doc
+- La estructura del proyecto se puede mejorar
