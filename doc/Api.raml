@@ -18,6 +18,11 @@ version: 1.0
             application/json:
               example: |
                 {"message": "Orden realizada con exito!"}
+        400:
+          body:
+            application/json:
+              example: |
+                {"message": "Error en la estructura del body"}
         404:
           body:
             application/json:
