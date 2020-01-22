@@ -9,7 +9,6 @@ RUN go get github.com/gorilla/mux
 
 RUN go install github.com/JackCloudman/MicroserviciosTest
 
-# Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/MicroserviciosTest
-# Document that the service listens on port 8080.
+# Document that the service listens on port 8090.
 EXPOSE 8090
